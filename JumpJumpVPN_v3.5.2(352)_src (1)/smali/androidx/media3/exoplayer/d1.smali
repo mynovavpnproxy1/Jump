@@ -1,0 +1,36 @@
+.class public final synthetic Landroidx/media3/exoplayer/d1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroidx/media3/exoplayer/r2$f;
+
+
+# instance fields
+.field public final synthetic a:Landroidx/media3/exoplayer/v1;
+
+
+# direct methods
+.method public synthetic constructor <init>(Landroidx/media3/exoplayer/v1;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Landroidx/media3/exoplayer/d1;->a:Landroidx/media3/exoplayer/v1;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Landroidx/media3/exoplayer/r2$e;)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Landroidx/media3/exoplayer/d1;->a:Landroidx/media3/exoplayer/v1;
+
+    invoke-static {v0, p1}, Landroidx/media3/exoplayer/v1;->W(Landroidx/media3/exoplayer/v1;Landroidx/media3/exoplayer/r2$e;)V
+
+    return-void
+.end method
