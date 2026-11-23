@@ -1,0 +1,11 @@
+.class public interface abstract Li4/h;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroidx/lifecycle/o;
+
+
+# virtual methods
+.method public abstract getSavedStateRegistry()Li4/e;
+.end method
