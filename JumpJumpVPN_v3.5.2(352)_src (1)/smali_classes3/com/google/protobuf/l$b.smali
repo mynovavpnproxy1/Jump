@@ -1,0 +1,151 @@
+.class public Lcom/google/protobuf/l$b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/util/Comparator;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/protobuf/l;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+.end method
+
+
+# virtual methods
+.method public compare(Lcom/google/protobuf/l;Lcom/google/protobuf/l;)I
+    .locals 4
+
+    .line 2
+    invoke-virtual {p1}, Lcom/google/protobuf/l;->iterator()Lcom/google/protobuf/l$g;
+
+    move-result-object v0
+
+    .line 3
+    invoke-virtual {p2}, Lcom/google/protobuf/l;->iterator()Lcom/google/protobuf/l$g;
+
+    move-result-object v1
+
+    .line 4
+    :cond_0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_1
+
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_1
+
+    .line 5
+    invoke-interface {v0}, Lcom/google/protobuf/l$g;->nextByte()B
+
+    move-result v2
+
+    invoke-static {v2}, Lcom/google/protobuf/l;->access$200(B)I
+
+    move-result v2
+
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v2
+
+    .line 6
+    invoke-interface {v1}, Lcom/google/protobuf/l$g;->nextByte()B
+
+    move-result v3
+
+    invoke-static {v3}, Lcom/google/protobuf/l;->access$200(B)I
+
+    move-result v3
+
+    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v3
+
+    invoke-virtual {v2, v3}, Ljava/lang/Integer;->compareTo(Ljava/lang/Integer;)I
+
+    move-result v2
+
+    if-eqz v2, :cond_0
+
+    return v2
+
+    .line 7
+    :cond_1
+    invoke-virtual {p1}, Lcom/google/protobuf/l;->size()I
+
+    move-result p1
+
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object p1
+
+    invoke-virtual {p2}, Lcom/google/protobuf/l;->size()I
+
+    move-result p2
+
+    invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object p2
+
+    invoke-virtual {p1, p2}, Ljava/lang/Integer;->compareTo(Ljava/lang/Integer;)I
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public bridge synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
+    .locals 0
+
+    .line 1
+    check-cast p1, Lcom/google/protobuf/l;
+
+    check-cast p2, Lcom/google/protobuf/l;
+
+    invoke-virtual {p0, p1, p2}, Lcom/google/protobuf/l$b;->compare(Lcom/google/protobuf/l;Lcom/google/protobuf/l;)I
+
+    move-result p1
+
+    return p1
+.end method

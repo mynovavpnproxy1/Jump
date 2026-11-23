@@ -1,0 +1,26 @@
+.class public interface abstract Lcom/google/protobuf/h1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract isSupported(Ljava/lang/Class;)Z
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Class<",
+            "*>;)Z"
+        }
+    .end annotation
+.end method
+
+.method public abstract messageInfoFor(Ljava/lang/Class;)Lcom/google/protobuf/g1;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Class<",
+            "*>;)",
+            "Lcom/google/protobuf/g1;"
+        }
+    .end annotation
+.end method

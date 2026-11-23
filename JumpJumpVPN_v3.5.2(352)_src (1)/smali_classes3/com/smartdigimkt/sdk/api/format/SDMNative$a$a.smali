@@ -1,0 +1,284 @@
+.class Lcom/smartdigimkt/sdk/api/format/SDMNative$a$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/smartdigimkt/sdk/api/format/SDMNative$a;->onAdLoaded(Lcom/smartdigimkt/y4/c;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$1:Lcom/smartdigimkt/sdk/api/format/SDMNative$a;
+
+.field final synthetic val$ownBaseAd:Lcom/smartdigimkt/y4/c;
+
+
+# direct methods
+.method public constructor <init>(Lcom/smartdigimkt/sdk/api/format/SDMNative$a;Lcom/smartdigimkt/y4/c;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 1
+    iput-object p1, p0, Lcom/smartdigimkt/sdk/api/format/SDMNative$a$a;->this$1:Lcom/smartdigimkt/sdk/api/format/SDMNative$a;
+
+    .line 2
+    .line 3
+    iput-object p2, p0, Lcom/smartdigimkt/sdk/api/format/SDMNative$a$a;->val$ownBaseAd:Lcom/smartdigimkt/y4/c;
+
+    .line 4
+    .line 5
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lcom/smartdigimkt/sdk/api/format/SDMNative$a$a;->val$ownBaseAd:Lcom/smartdigimkt/y4/c;
+
+    .line 2
+    .line 3
+    instance-of v0, v0, Lcom/smartdigimkt/y4/f;
+
+    .line 4
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    iget-object v0, p0, Lcom/smartdigimkt/sdk/api/format/SDMNative$a$a;->this$1:Lcom/smartdigimkt/sdk/api/format/SDMNative$a;
+
+    .line 8
+    .line 9
+    iget-object v0, v0, Lcom/smartdigimkt/sdk/api/format/SDMNative$a;->this$0:Lcom/smartdigimkt/sdk/api/format/SDMNative;
+
+    .line 10
+    .line 11
+    invoke-static {v0}, Lcom/smartdigimkt/sdk/api/format/SDMNative;->access$300(Lcom/smartdigimkt/sdk/api/format/SDMNative;)Lcom/smartdigimkt/sdk/api/format/SDMNativeLoadListener;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object v0
+
+    .line 15
+    if-eqz v0, :cond_1
+
+    .line 16
+    .line 17
+    iget-object v0, p0, Lcom/smartdigimkt/sdk/api/format/SDMNative$a$a;->this$1:Lcom/smartdigimkt/sdk/api/format/SDMNative$a;
+
+    .line 18
+    .line 19
+    iget-object v0, v0, Lcom/smartdigimkt/sdk/api/format/SDMNative$a;->this$0:Lcom/smartdigimkt/sdk/api/format/SDMNative;
+
+    .line 20
+    .line 21
+    new-instance v1, Lcom/smartdigimkt/r8/o;
+
+    .line 22
+    .line 23
+    iget-object v2, p0, Lcom/smartdigimkt/sdk/api/format/SDMNative$a$a;->val$ownBaseAd:Lcom/smartdigimkt/y4/c;
+
+    .line 24
+    .line 25
+    check-cast v2, Lcom/smartdigimkt/y4/f;
+
+    .line 26
+    .line 27
+    invoke-direct {v1, v2}, Lcom/smartdigimkt/r8/o;-><init>(Lcom/smartdigimkt/y4/f;)V
+
+    .line 28
+    .line 29
+    .line 30
+    invoke-static {v0, v1}, Lcom/smartdigimkt/sdk/api/format/SDMNative;->access$402(Lcom/smartdigimkt/sdk/api/format/SDMNative;Lcom/smartdigimkt/r8/o;)Lcom/smartdigimkt/r8/o;
+
+    .line 31
+    .line 32
+    .line 33
+    iget-object v0, p0, Lcom/smartdigimkt/sdk/api/format/SDMNative$a$a;->this$1:Lcom/smartdigimkt/sdk/api/format/SDMNative$a;
+
+    .line 34
+    .line 35
+    iget-object v0, v0, Lcom/smartdigimkt/sdk/api/format/SDMNative$a;->this$0:Lcom/smartdigimkt/sdk/api/format/SDMNative;
+
+    .line 36
+    .line 37
+    invoke-static {v0}, Lcom/smartdigimkt/sdk/api/format/SDMNative;->access$300(Lcom/smartdigimkt/sdk/api/format/SDMNative;)Lcom/smartdigimkt/sdk/api/format/SDMNativeLoadListener;
+
+    .line 38
+    .line 39
+    .line 40
+    move-result-object v0
+
+    .line 41
+    iget-object v1, p0, Lcom/smartdigimkt/sdk/api/format/SDMNative$a$a;->this$1:Lcom/smartdigimkt/sdk/api/format/SDMNative$a;
+
+    .line 42
+    .line 43
+    iget-object v1, v1, Lcom/smartdigimkt/sdk/api/format/SDMNative$a;->this$0:Lcom/smartdigimkt/sdk/api/format/SDMNative;
+
+    .line 44
+    .line 45
+    invoke-static {v1}, Lcom/smartdigimkt/sdk/api/format/SDMNative;->access$400(Lcom/smartdigimkt/sdk/api/format/SDMNative;)Lcom/smartdigimkt/r8/o;
+
+    .line 46
+    .line 47
+    .line 48
+    move-result-object v1
+
+    .line 49
+    invoke-interface {v0, v1}, Lcom/smartdigimkt/sdk/api/format/SDMNativeLoadListener;->onAdLoaded(Lcom/smartdigimkt/sdk/api/format/SDMNativeAd;)V
+
+    .line 50
+    .line 51
+    .line 52
+    return-void
+
+    .line 53
+    :cond_0
+    iget-object v0, p0, Lcom/smartdigimkt/sdk/api/format/SDMNative$a$a;->this$1:Lcom/smartdigimkt/sdk/api/format/SDMNative$a;
+
+    .line 54
+    .line 55
+    iget-object v0, v0, Lcom/smartdigimkt/sdk/api/format/SDMNative$a;->this$0:Lcom/smartdigimkt/sdk/api/format/SDMNative;
+
+    .line 56
+    .line 57
+    invoke-static {v0}, Lcom/smartdigimkt/sdk/api/format/SDMNative;->access$300(Lcom/smartdigimkt/sdk/api/format/SDMNative;)Lcom/smartdigimkt/sdk/api/format/SDMNativeLoadListener;
+
+    .line 58
+    .line 59
+    .line 60
+    move-result-object v0
+
+    .line 61
+    if-eqz v0, :cond_1
+
+    .line 62
+    .line 63
+    iget-object v0, p0, Lcom/smartdigimkt/sdk/api/format/SDMNative$a$a;->this$1:Lcom/smartdigimkt/sdk/api/format/SDMNative$a;
+
+    .line 64
+    .line 65
+    iget-object v0, v0, Lcom/smartdigimkt/sdk/api/format/SDMNative$a;->this$0:Lcom/smartdigimkt/sdk/api/format/SDMNative;
+
+    .line 66
+    .line 67
+    invoke-static {v0}, Lcom/smartdigimkt/sdk/api/format/SDMNative;->access$300(Lcom/smartdigimkt/sdk/api/format/SDMNative;)Lcom/smartdigimkt/sdk/api/format/SDMNativeLoadListener;
+
+    .line 68
+    .line 69
+    .line 70
+    move-result-object v0
+
+    .line 71
+    const-string v1, "20001"
+
+    .line 72
+    .line 73
+    const-string v2, "Ad is loaded but not match type."
+
+    .line 74
+    .line 75
+    invoke-static {v1, v2}, Lcom/smartdigimkt/w7/b;->a(Ljava/lang/String;Ljava/lang/String;)Lcom/smartdigimkt/w7/a;
+
+    .line 76
+    .line 77
+    .line 78
+    move-result-object v1
+
+    .line 79
+    invoke-interface {v0, v1}, Lcom/smartdigimkt/sdk/api/format/SDMNativeLoadListener;->onAdLoadFail(Lcom/smartdigimkt/sdk/api/AdError;)V
+
+    .line 80
+    .line 81
+    .line 82
+    :cond_1
+    return-void
+.end method
