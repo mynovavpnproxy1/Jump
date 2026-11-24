@@ -1,0 +1,121 @@
+.class final Lcom/yandex/mobile/ads/impl/s6$a;
+.super Lkotlin/jvm/internal/u;
+.source "SourceFile"
+
+# interfaces
+.implements Lpf/a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/yandex/mobile/ads/impl/s6;-><init>(Lcom/yandex/mobile/ads/impl/v2;Landroid/content/Context;Lcom/yandex/mobile/ads/impl/l6;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/u;",
+        "Lpf/a;"
+    }
+.end annotation
+
+
+# instance fields
+.field final synthetic b:Lcom/yandex/mobile/ads/impl/s6;
+
+
+# direct methods
+.method public constructor <init>(Lcom/yandex/mobile/ads/impl/s6;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/yandex/mobile/ads/impl/s6$a;->b:Lcom/yandex/mobile/ads/impl/s6;
+
+    .line 2
+    .line 3
+    const/4 p1, 0x0
+
+    .line 4
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/u;-><init>(I)V
+
+    .line 5
+    .line 6
+    .line 7
+    return-void
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 2
+
+    .line 1
+    new-instance v0, Lcom/yandex/mobile/ads/impl/a7;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x0
+
+    .line 4
+    invoke-direct {v0, v1}, Lcom/yandex/mobile/ads/impl/a7;-><init>(I)V
+
+    .line 5
+    .line 6
+    .line 7
+    iget-object v1, p0, Lcom/yandex/mobile/ads/impl/s6$a;->b:Lcom/yandex/mobile/ads/impl/s6;
+
+    .line 8
+    .line 9
+    invoke-static {v1}, Lcom/yandex/mobile/ads/impl/s6;->a(Lcom/yandex/mobile/ads/impl/s6;)Landroid/content/Context;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v1
+
+    .line 13
+    invoke-virtual {v0, v1}, Lcom/yandex/mobile/ads/impl/a7;->a(Landroid/content/Context;)Lcom/yandex/mobile/ads/impl/z6;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object v0
+
+    .line 17
+    return-object v0
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+.end method

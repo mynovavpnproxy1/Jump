@@ -1,0 +1,40 @@
+.class public interface abstract Lcom/yandex/mobile/ads/impl/bw0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/yandex/mobile/ads/impl/fx1;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/yandex/mobile/ads/impl/bw0$a;
+    }
+.end annotation
+
+
+# virtual methods
+.method public abstract a(JLcom/yandex/mobile/ads/impl/yw1;)J
+.end method
+
+.method public abstract a([Lcom/yandex/mobile/ads/impl/a70;[Z[Lcom/yandex/mobile/ads/impl/jt1;[ZJ)J
+.end method
+
+.method public abstract a(Lcom/yandex/mobile/ads/impl/bw0$a;J)V
+.end method
+
+.method public abstract discardBuffer(JZ)V
+.end method
+
+.method public abstract getTrackGroups()Lcom/yandex/mobile/ads/impl/s52;
+.end method
+
+.method public abstract maybeThrowPrepareError()V
+.end method
+
+.method public abstract readDiscontinuity()J
+.end method
+
+.method public abstract seekToUs(J)J
+.end method

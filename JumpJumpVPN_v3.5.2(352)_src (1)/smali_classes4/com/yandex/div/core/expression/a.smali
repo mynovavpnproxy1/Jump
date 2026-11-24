@@ -1,0 +1,48 @@
+.class public final synthetic Lcom/yandex/div/core/expression/a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/yandex/div/core/Disposable;
+
+
+# instance fields
+.field public final synthetic X:Lcom/yandex/div/core/expression/ExpressionResolverImpl;
+
+.field public final synthetic Y:Ljava/lang/String;
+
+.field public final synthetic Z:Lpf/a;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/yandex/div/core/expression/ExpressionResolverImpl;Ljava/lang/String;Lpf/a;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/yandex/div/core/expression/a;->X:Lcom/yandex/div/core/expression/ExpressionResolverImpl;
+
+    iput-object p2, p0, Lcom/yandex/div/core/expression/a;->Y:Ljava/lang/String;
+
+    iput-object p3, p0, Lcom/yandex/div/core/expression/a;->Z:Lpf/a;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final close()V
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lcom/yandex/div/core/expression/a;->X:Lcom/yandex/div/core/expression/ExpressionResolverImpl;
+
+    iget-object v1, p0, Lcom/yandex/div/core/expression/a;->Y:Ljava/lang/String;
+
+    iget-object v2, p0, Lcom/yandex/div/core/expression/a;->Z:Lpf/a;
+
+    invoke-static {v0, v1, v2}, Lcom/yandex/div/core/expression/ExpressionResolverImpl;->a(Lcom/yandex/div/core/expression/ExpressionResolverImpl;Ljava/lang/String;Lpf/a;)V
+
+    return-void
+.end method
