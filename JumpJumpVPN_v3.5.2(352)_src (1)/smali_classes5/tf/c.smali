@@ -1,0 +1,946 @@
+.class public abstract Ltf/c;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Ltf/c$a;
+    }
+.end annotation
+
+
+# static fields
+.field public static final Default:Ltf/c$a;
+
+.field public static final X:Ltf/c;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    .line 1
+    new-instance v0, Ltf/c$a;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x0
+
+    .line 4
+    invoke-direct {v0, v1}, Ltf/c$a;-><init>(Lkotlin/jvm/internal/k;)V
+
+    .line 5
+    .line 6
+    .line 7
+    sput-object v0, Ltf/c;->Default:Ltf/c$a;
+
+    .line 8
+    .line 9
+    sget-object v0, Lkf/b;->a:Lkf/a;
+
+    .line 10
+    .line 11
+    invoke-virtual {v0}, Lkf/a;->b()Ltf/c;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object v0
+
+    .line 15
+    sput-object v0, Ltf/c;->X:Ltf/c;
+
+    .line 16
+    .line 17
+    return-void
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+.end method
+
+.method public static final synthetic access$getDefaultRandom$cp()Ltf/c;
+    .locals 1
+
+    .line 1
+    sget-object v0, Ltf/c;->X:Ltf/c;
+
+    .line 2
+    .line 3
+    return-object v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+.end method
+
+.method public static synthetic nextBytes$default(Ltf/c;[BIIILjava/lang/Object;)[B
+    .locals 0
+
+    .line 1
+    if-nez p5, :cond_2
+
+    .line 2
+    .line 3
+    and-int/lit8 p5, p4, 0x2
+
+    .line 4
+    .line 5
+    if-eqz p5, :cond_0
+
+    .line 6
+    .line 7
+    const/4 p2, 0x0
+
+    .line 8
+    :cond_0
+    and-int/lit8 p4, p4, 0x4
+
+    .line 9
+    .line 10
+    if-eqz p4, :cond_1
+
+    .line 11
+    .line 12
+    array-length p3, p1
+
+    .line 13
+    :cond_1
+    invoke-virtual {p0, p1, p2, p3}, Ltf/c;->nextBytes([BII)[B
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object p0
+
+    .line 17
+    return-object p0
+
+    .line 18
+    :cond_2
+    new-instance p0, Ljava/lang/UnsupportedOperationException;
+
+    .line 19
+    .line 20
+    const-string p1, "Super calls with default arguments not supported in this target, function: nextBytes"
+
+    .line 21
+    .line 22
+    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    .line 23
+    .line 24
+    .line 25
+    throw p0
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+.end method
+
+
+# virtual methods
+.method public abstract nextBits(I)I
+.end method
+
+.method public abstract nextBoolean()Z
+.end method
+
+.method public nextBytes(I)[B
+    .locals 0
+
+    .line 12
+    new-array p1, p1, [B
+
+    invoke-virtual {p0, p1}, Ltf/c;->nextBytes([B)[B
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public abstract nextBytes([B)[B
+.end method
+
+.method public nextBytes([BII)[B
+    .locals 6
+
+    const-string v0, "array"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/t;->j(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    const-string v0, "fromIndex ("
+
+    if-ltz p2, :cond_3
+
+    array-length v1, p1
+
+    if-gt p2, v1, :cond_3
+
+    if-ltz p3, :cond_3
+
+    array-length v1, p1
+
+    if-gt p3, v1, :cond_3
+
+    if-gt p2, p3, :cond_2
+
+    sub-int v0, p3, p2
+
+    .line 2
+    div-int/lit8 v0, v0, 0x4
+
+    const/4 v1, 0x0
+
+    move v2, v1
+
+    :goto_0
+    if-ge v2, v0, :cond_0
+
+    .line 3
+    invoke-virtual {p0}, Ltf/c;->nextInt()I
+
+    move-result v3
+
+    int-to-byte v4, v3
+
+    .line 4
+    aput-byte v4, p1, p2
+
+    add-int/lit8 v4, p2, 0x1
+
+    ushr-int/lit8 v5, v3, 0x8
+
+    int-to-byte v5, v5
+
+    .line 5
+    aput-byte v5, p1, v4
+
+    add-int/lit8 v4, p2, 0x2
+
+    ushr-int/lit8 v5, v3, 0x10
+
+    int-to-byte v5, v5
+
+    .line 6
+    aput-byte v5, p1, v4
+
+    add-int/lit8 v4, p2, 0x3
+
+    ushr-int/lit8 v3, v3, 0x18
+
+    int-to-byte v3, v3
+
+    .line 7
+    aput-byte v3, p1, v4
+
+    add-int/lit8 p2, p2, 0x4
+
+    add-int/lit8 v2, v2, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    sub-int/2addr p3, p2
+
+    mul-int/lit8 v0, p3, 0x8
+
+    .line 8
+    invoke-virtual {p0, v0}, Ltf/c;->nextBits(I)I
+
+    move-result v0
+
+    :goto_1
+    if-ge v1, p3, :cond_1
+
+    add-int v2, p2, v1
+
+    mul-int/lit8 v3, v1, 0x8
+
+    ushr-int v3, v0, v3
+
+    int-to-byte v3, v3
+
+    .line 9
+    aput-byte v3, p1, v2
+
+    add-int/lit8 v1, v1, 0x1
+
+    goto :goto_1
+
+    :cond_1
+    return-object p1
+
+    .line 10
+    :cond_2
+    new-instance p1, Ljava/lang/StringBuilder;
+
+    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string p2, ") must be not greater than toIndex ("
+
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p1, p3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string p2, ")."
+
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    new-instance p2, Ljava/lang/IllegalArgumentException;
+
+    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-direct {p2, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p2
+
+    .line 11
+    :cond_3
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string p2, ") or toIndex ("
+
+    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, p3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string p2, ") are out of range: 0.."
+
+    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    array-length p1, p1
+
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const/16 p1, 0x2e
+
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    new-instance p2, Ljava/lang/IllegalArgumentException;
+
+    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-direct {p2, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p2
+.end method
+
+.method public abstract nextDouble()D
+.end method
+
+.method public nextDouble(D)D
+    .locals 2
+
+    const-wide/16 v0, 0x0
+
+    .line 1
+    invoke-virtual {p0, v0, v1, p1, p2}, Ltf/c;->nextDouble(DD)D
+
+    move-result-wide p1
+
+    return-wide p1
+.end method
+
+.method public nextDouble(DD)D
+    .locals 6
+
+    .line 2
+    invoke-static {p1, p2, p3, p4}, Ltf/d;->b(DD)V
+
+    sub-double v0, p3, p1
+
+    .line 3
+    invoke-static {v0, v1}, Ljava/lang/Double;->isInfinite(D)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_0
+
+    invoke-static {p1, p2}, Ljava/lang/Math;->abs(D)D
+
+    move-result-wide v2
+
+    const-wide v4, 0x7fefffffffffffffL    # Double.MAX_VALUE
+
+    cmpg-double v2, v2, v4
+
+    if-gtz v2, :cond_0
+
+    invoke-static {p3, p4}, Ljava/lang/Math;->abs(D)D
+
+    move-result-wide v2
+
+    cmpg-double v2, v2, v4
+
+    if-gtz v2, :cond_0
+
+    .line 4
+    invoke-virtual {p0}, Ltf/c;->nextDouble()D
+
+    move-result-wide v0
+
+    const/4 v2, 0x2
+
+    int-to-double v2, v2
+
+    div-double v4, p3, v2
+
+    div-double v2, p1, v2
+
+    sub-double/2addr v4, v2
+
+    mul-double/2addr v0, v4
+
+    add-double/2addr p1, v0
+
+    add-double/2addr p1, v0
+
+    goto :goto_0
+
+    .line 5
+    :cond_0
+    invoke-virtual {p0}, Ltf/c;->nextDouble()D
+
+    move-result-wide v2
+
+    mul-double/2addr v2, v0
+
+    add-double/2addr p1, v2
+
+    :goto_0
+    cmpl-double v0, p1, p3
+
+    if-ltz v0, :cond_1
+
+    const-wide/high16 p1, -0x10000000000000L    # Double.NEGATIVE_INFINITY
+
+    .line 6
+    invoke-static {p3, p4, p1, p2}, Ljava/lang/Math;->nextAfter(DD)D
+
+    move-result-wide p1
+
+    :cond_1
+    return-wide p1
+.end method
+
+.method public abstract nextFloat()F
+.end method
+
+.method public abstract nextInt()I
+.end method
+
+.method public abstract nextInt(I)I
+.end method
+
+.method public nextInt(II)I
+    .locals 3
+
+    .line 1
+    invoke-static {p1, p2}, Ltf/d;->c(II)V
+
+    sub-int v0, p2, p1
+
+    if-gtz v0, :cond_1
+
+    const/high16 v1, -0x80000000
+
+    if-ne v0, v1, :cond_0
+
+    goto :goto_0
+
+    .line 2
+    :cond_0
+    invoke-virtual {p0}, Ltf/c;->nextInt()I
+
+    move-result v0
+
+    if-gt p1, v0, :cond_0
+
+    if-ge v0, p2, :cond_0
+
+    return v0
+
+    :cond_1
+    :goto_0
+    neg-int p2, v0
+
+    and-int/2addr p2, v0
+
+    if-ne p2, v0, :cond_2
+
+    .line 3
+    invoke-static {v0}, Ltf/d;->e(I)I
+
+    move-result p2
+
+    .line 4
+    invoke-virtual {p0, p2}, Ltf/c;->nextBits(I)I
+
+    move-result p2
+
+    goto :goto_1
+
+    .line 5
+    :cond_2
+    invoke-virtual {p0}, Ltf/c;->nextInt()I
+
+    move-result p2
+
+    ushr-int/lit8 p2, p2, 0x1
+
+    .line 6
+    rem-int v1, p2, v0
+
+    sub-int/2addr p2, v1
+
+    add-int/lit8 v2, v0, -0x1
+
+    add-int/2addr p2, v2
+
+    if-ltz p2, :cond_2
+
+    move p2, v1
+
+    :goto_1
+    add-int/2addr p1, p2
+
+    return p1
+.end method
+
+.method public abstract nextLong()J
+.end method
+
+.method public nextLong(J)J
+    .locals 2
+
+    const-wide/16 v0, 0x0
+
+    .line 1
+    invoke-virtual {p0, v0, v1, p1, p2}, Ltf/c;->nextLong(JJ)J
+
+    move-result-wide p1
+
+    return-wide p1
+.end method
+
+.method public nextLong(JJ)J
+    .locals 9
+
+    .line 2
+    invoke-static {p1, p2, p3, p4}, Ltf/d;->d(JJ)V
+
+    sub-long v0, p3, p1
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v4, v0, v2
+
+    if-lez v4, :cond_3
+
+    neg-long p3, v0
+
+    and-long/2addr p3, v0
+
+    cmp-long p3, p3, v0
+
+    const/4 v4, 0x1
+
+    if-nez p3, :cond_2
+
+    long-to-int p3, v0
+
+    const/16 p4, 0x20
+
+    ushr-long/2addr v0, p4
+
+    long-to-int v0, v0
+
+    const-wide v1, 0xffffffffL
+
+    if-eqz p3, :cond_0
+
+    .line 3
+    invoke-static {p3}, Ltf/d;->e(I)I
+
+    move-result p3
+
+    .line 4
+    invoke-virtual {p0, p3}, Ltf/c;->nextBits(I)I
+
+    move-result p3
+
+    :goto_0
+    int-to-long p3, p3
+
+    and-long/2addr p3, v1
+
+    goto :goto_1
+
+    :cond_0
+    if-ne v0, v4, :cond_1
+
+    .line 5
+    invoke-virtual {p0}, Ltf/c;->nextInt()I
+
+    move-result p3
+
+    goto :goto_0
+
+    .line 6
+    :cond_1
+    invoke-static {v0}, Ltf/d;->e(I)I
+
+    move-result p3
+
+    .line 7
+    invoke-virtual {p0, p3}, Ltf/c;->nextBits(I)I
+
+    move-result p3
+
+    int-to-long v3, p3
+
+    shl-long p3, v3, p4
+
+    invoke-virtual {p0}, Ltf/c;->nextInt()I
+
+    move-result v0
+
+    int-to-long v3, v0
+
+    and-long v0, v3, v1
+
+    add-long/2addr p3, v0
+
+    goto :goto_1
+
+    .line 8
+    :cond_2
+    invoke-virtual {p0}, Ltf/c;->nextLong()J
+
+    move-result-wide p3
+
+    ushr-long/2addr p3, v4
+
+    .line 9
+    rem-long v5, p3, v0
+
+    sub-long/2addr p3, v5
+
+    const-wide/16 v7, 0x1
+
+    sub-long v7, v0, v7
+
+    add-long/2addr p3, v7
+
+    cmp-long p3, p3, v2
+
+    if-ltz p3, :cond_2
+
+    move-wide p3, v5
+
+    :goto_1
+    add-long/2addr p1, p3
+
+    return-wide p1
+
+    .line 10
+    :cond_3
+    invoke-virtual {p0}, Ltf/c;->nextLong()J
+
+    move-result-wide v0
+
+    cmp-long v2, p1, v0
+
+    if-gtz v2, :cond_3
+
+    cmp-long v2, v0, p3
+
+    if-gez v2, :cond_3
+
+    return-wide v0
+.end method

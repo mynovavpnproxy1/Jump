@@ -1,0 +1,572 @@
+.class public final Ltf/c$a;
+.super Ltf/c;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/io/Serializable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Ltf/c;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Ltf/c$a$a;
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 2
+    invoke-direct {p0}, Ltf/c;-><init>()V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/k;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ltf/c$a;-><init>()V
+
+    return-void
+.end method
+
+.method private final readObject(Ljava/io/ObjectInputStream;)V
+    .locals 1
+
+    .line 1
+    new-instance p1, Ljava/io/InvalidObjectException;
+
+    .line 2
+    .line 3
+    const-string v0, "Deserialization is supported via proxy only"
+
+    .line 4
+    .line 5
+    invoke-direct {p1, v0}, Ljava/io/InvalidObjectException;-><init>(Ljava/lang/String;)V
+
+    .line 6
+    .line 7
+    .line 8
+    throw p1
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+.end method
+
+.method private final writeReplace()Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    sget-object v0, Ltf/c$a$a;->INSTANCE:Ltf/c$a$a;
+
+    .line 2
+    .line 3
+    return-object v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+.end method
+
+
+# virtual methods
+.method public nextBits(I)I
+    .locals 1
+
+    .line 1
+    invoke-static {}, Ltf/c;->access$getDefaultRandom$cp()Ltf/c;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    invoke-virtual {v0, p1}, Ltf/c;->nextBits(I)I
+
+    .line 6
+    .line 7
+    .line 8
+    move-result p1
+
+    .line 9
+    return p1
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+.end method
+
+.method public nextBoolean()Z
+    .locals 1
+
+    .line 1
+    invoke-static {}, Ltf/c;->access$getDefaultRandom$cp()Ltf/c;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    invoke-virtual {v0}, Ltf/c;->nextBoolean()Z
+
+    .line 6
+    .line 7
+    .line 8
+    move-result v0
+
+    .line 9
+    return v0
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+.end method
+
+.method public nextBytes(I)[B
+    .locals 1
+
+    .line 2
+    invoke-static {}, Ltf/c;->access$getDefaultRandom$cp()Ltf/c;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1}, Ltf/c;->nextBytes(I)[B
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public nextBytes([B)[B
+    .locals 1
+
+    const-string v0, "array"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/t;->j(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    invoke-static {}, Ltf/c;->access$getDefaultRandom$cp()Ltf/c;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1}, Ltf/c;->nextBytes([B)[B
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public nextBytes([BII)[B
+    .locals 1
+
+    const-string v0, "array"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/t;->j(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 3
+    invoke-static {}, Ltf/c;->access$getDefaultRandom$cp()Ltf/c;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1, p2, p3}, Ltf/c;->nextBytes([BII)[B
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public nextDouble()D
+    .locals 2
+
+    .line 1
+    invoke-static {}, Ltf/c;->access$getDefaultRandom$cp()Ltf/c;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ltf/c;->nextDouble()D
+
+    move-result-wide v0
+
+    return-wide v0
+.end method
+
+.method public nextDouble(D)D
+    .locals 1
+
+    .line 2
+    invoke-static {}, Ltf/c;->access$getDefaultRandom$cp()Ltf/c;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1, p2}, Ltf/c;->nextDouble(D)D
+
+    move-result-wide p1
+
+    return-wide p1
+.end method
+
+.method public nextDouble(DD)D
+    .locals 1
+
+    .line 3
+    invoke-static {}, Ltf/c;->access$getDefaultRandom$cp()Ltf/c;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1, p2, p3, p4}, Ltf/c;->nextDouble(DD)D
+
+    move-result-wide p1
+
+    return-wide p1
+.end method
+
+.method public nextFloat()F
+    .locals 1
+
+    .line 1
+    invoke-static {}, Ltf/c;->access$getDefaultRandom$cp()Ltf/c;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    invoke-virtual {v0}, Ltf/c;->nextFloat()F
+
+    .line 6
+    .line 7
+    .line 8
+    move-result v0
+
+    .line 9
+    return v0
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+.end method
+
+.method public nextInt()I
+    .locals 1
+
+    .line 1
+    invoke-static {}, Ltf/c;->access$getDefaultRandom$cp()Ltf/c;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ltf/c;->nextInt()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public nextInt(I)I
+    .locals 1
+
+    .line 2
+    invoke-static {}, Ltf/c;->access$getDefaultRandom$cp()Ltf/c;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1}, Ltf/c;->nextInt(I)I
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public nextInt(II)I
+    .locals 1
+
+    .line 3
+    invoke-static {}, Ltf/c;->access$getDefaultRandom$cp()Ltf/c;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1, p2}, Ltf/c;->nextInt(II)I
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public nextLong()J
+    .locals 2
+
+    .line 1
+    invoke-static {}, Ltf/c;->access$getDefaultRandom$cp()Ltf/c;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ltf/c;->nextLong()J
+
+    move-result-wide v0
+
+    return-wide v0
+.end method
+
+.method public nextLong(J)J
+    .locals 1
+
+    .line 2
+    invoke-static {}, Ltf/c;->access$getDefaultRandom$cp()Ltf/c;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1, p2}, Ltf/c;->nextLong(J)J
+
+    move-result-wide p1
+
+    return-wide p1
+.end method
+
+.method public nextLong(JJ)J
+    .locals 1
+
+    .line 3
+    invoke-static {}, Ltf/c;->access$getDefaultRandom$cp()Ltf/c;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1, p2, p3, p4}, Ltf/c;->nextLong(JJ)J
+
+    move-result-wide p1
+
+    return-wide p1
+.end method
